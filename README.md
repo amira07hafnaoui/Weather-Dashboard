@@ -39,7 +39,7 @@ Build a weather dashboard application with search functionality to find current 
 
   * Humidity
 ## Screenshots
-![image](https://user-images.githubusercontent.com/55209230/69683596-00489500-107b-11ea-8315-d7ff31cdfc1e.png)
+![image](https://user-images.githubusercontent.com/55209230/69683897-0ab75e80-107c-11ea-89ad-62135843b0a8.png)
 ![image](https://user-images.githubusercontent.com/55209230/69683617-13f3fb80-107b-11ea-9b52-384e7b7b93cd.png)
 ![image](https://user-images.githubusercontent.com/55209230/69683632-20785400-107b-11ea-9d5f-26f7b9c93d0a.png)
 
