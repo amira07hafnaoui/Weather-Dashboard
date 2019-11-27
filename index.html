@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+     <!-- Bootstrap CSS File -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <!-- Main Stylesheet File -->
+    <link rel="stylesheet" href="assets/css/weather.css" />
+   
+    <title>Weather Dashboard</title>
+  </head>
+
+  <body>
+       <!-- Nav Start -->
+      <nav class="navbar navbar-expand-lg nav-prop mb-3">
+          <span class="navbar-brand mx-auto"> 
+              <h1>Weather Dashboard</h1> 
+          </span>
+       </nav>
+     <!-- Nav Star end -->   
+ <!-- start main content  -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+        <!-- Card -->
+           <div class="card  Search-section ">
+        <!-- Card content -->
+            <div class="card-body">
+              <!-- Title --> 
+              <h2 class="card-title "> Search for a city :</h2>
+             <div class="input-group mb-3">
+               <input  id="city-search" class="form-control " type="text" placeholder="Search" aria-label="Search">
+               <div class="input-group-append">
+              <button id="getWeather" class="btn btn-primary" type="submit">
+              <i id="getWeatherIcon" class="fas fa-search" aria-hidden="true"></i>
+              </button>
+              </div>
+            </div>
+            </div>
+
+ <div id="past-cities">                  
+</div>           
+</div>   
+</div>
+    
+ <div class="col-md-9">
+                <div class='row'>
+                        <div class='card'>
+                          <div class='card-body'>
+                            <h5 class='card-title' id='cityName'>City</h5>
+                            <ul>
+                              <li><img id='curWeathIcn'></img></li>
+                              <li class='card-text' id='curTemp'>Temperature:</li>
+                              <li class='card-text' id='curHum'>Humidity:</li>
+                              <li class='card-text' id='curWind'>Wind speed:</li>
+                              <li class='card-text' id='curUv'>UV Index:</li>
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class='row mt-3'>
+                            <h2 class='card-title '>5-Day Forcast</h2>
+                        </div>
+                        <div class='row' id='forecast'></div>
+                      </div>
+        </div>
+    </div>
+</div>
+
+
+ <!-- end main content  -->
+     
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="assets/js/weather.js"></script>
+  </body>
+</html>

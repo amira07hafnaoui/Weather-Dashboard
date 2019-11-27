@@ -1,0 +1,62 @@
+body {
+    background-color: #ecf5ff;
+  }
+ * {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+  }
+  h1{
+    color:white;
+    font-size:24px;
+    font-weight: bold;
+  }
+  h2{
+    color:black;
+    font-size:20px;
+    font-weight: bold;
+  }
+
+.nav-prop{
+    background-color: #10316b;
+    height:100px;
+}
+.col { 
+    padding: 5px;
+  }
+  
+  .card {
+    width: 100%;
+    background-color: #ececec;
+  }
+.search-section {
+    height: 100%;
+  }
+  ul{ 
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  li{ 
+    font-size: 16px;
+  }
+  
+  .forecast-card {
+    background-color: #8FCBFF;
+  
+  }
+  .cityList {
+    border: solid;
+    border-width: thin;
+    margin: 5px;
+    padding-left: 2px;
+    background-color: lightgrey;
+  }
+  
+  .cityList:hover {
+    background-color:#4d80e4;
+    color: #fff;
+  }
+  
+ 
